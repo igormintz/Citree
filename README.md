@@ -32,3 +32,12 @@ research citations tree visualization
     plot_html - creats an html file with tow plots:
         1. papers cictations tree
         2. authors who wrote toghather
+
+----------------------------
+example of use:
+temp = Citree('10.1111/j.1526-4610.2006.00288.x')
+temp.first()
+temp.create_next_generation()
+temp.create_next_generation()
+temp.color_by_self_citation()
+temp.plot_html('temp')
