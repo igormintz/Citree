@@ -42,10 +42,6 @@ class Citree(object):
         self.redo_dois = []
         self.G = nx.MultiGraph() #article titles graph
         self.A = nx.MultiGraph() #authors graph
-        self.max_degree = 1 #will be updated and used later for normalization of node sizes
-        #max and min of publication year will be used for coloring
-#         self.min_year = int(self.paper['year'])
-#         self.max_year = int(self.paper['year'])
         self.generation = 0
         self.retrived_count = 0 #semantic scholar has a limit of 100 per 5 mins when counter reaches 99->sleep for 5 mins
         self.first_authors_ids = []
