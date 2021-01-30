@@ -32,6 +32,7 @@ research citations tree visualization
     plot_html - creats an html file with tow plots:
         1. papers cictations tree
         2. authors who wrote toghather
+    export_csv(filename='filename') - creates a dataframe and exports it as 'filename.csv'
 
 ----------------------------
     example of use:
