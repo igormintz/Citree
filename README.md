@@ -43,3 +43,4 @@ research citations tree visualization
     temp.create_next_generation()
     temp.color_by_self_citation()
     temp.plot_html('temp')
+    temp.export_csv(filename='mycsv)
