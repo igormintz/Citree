@@ -11,7 +11,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="Citree-pkg-Igor_Mintz", 
-    version="0.0.1",
+    version="0.0.2",
     author="Igor Mintz",
     author_email="igormintz@example.com",
     description="creates citation tree plot using DOI",
