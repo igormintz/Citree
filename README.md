@@ -36,8 +36,10 @@ research citations tree visualization
 
 ----------------------------
     example of use:
+    from citree import citree
+    temp = citree('10.1111/j.1526-4610.2006.00288.x')
 
-    temp = Citree('10.1111/j.1526-4610.2006.00288.x')
+    #other optional methods
     temp.first()
     temp.create_next_generation()
     temp.create_next_generation()
